@@ -21,6 +21,7 @@ public function testFactorialFive(){
 }
 //4
 public function testFactorialRandom(){
+    //$number=rand()+3;
     $number=rand(4,8);
    return $this->assertTrue(
    Factorial::fact($number)==$number*Factorial::fact($number-1));       
